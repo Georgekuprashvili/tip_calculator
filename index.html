@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img class="image1" src="./SPLITTER.svg" alt="icon" />
+    <div class="main_container">
+      <div class="container1">
+        <div class="input1">
+          <p class="paragraph1">Bill</p>
+          <div class="input_box">
+            <img  src="./$.svg" alt="" />
+            <input class="price" id="bill_value" type="number" placeholder="0" />
+          </div>
+        </div>
+        <div class="tip_select">
+          <p class="paragraph1">Select Tip %</p>
+
+          <div class="button_cont1">
+            <button class="button1" id="button5">5%</button>
+            <button class="button1" id="button10">10%</button>
+            <button class="button1" id="button15">15%</button>
+          </div>
+          <div class="button_cont1">
+            <button class="button1" id="button25">25%</button>
+            <button class="button1" id="button50">50%</button>
+            <input class="button2" id="button_custom" type="number" placeholder="Custom" />
+          </div>
+        </div>
+        <div class="input2">
+          <p class="paragraph1">Number of People</p>
+          <div class="input_box">
+            <img src="./Combined Shape (3).svg" alt="" />
+            <input class="price" id="number_of_people" type="number" placeholder="0" />
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="box_total">
+          <div class="box1">
+            <div class="text">
+              <p class="paragraph2">Tip Amount</p>
+              <p class="paragraph3">/ person</p>
+            </div>
+            <input class="input_text2" id="tip_per_person" type="number" placeholder="$0.00" />
+          </div>
+          <div class="box1">
+            <div class="text">
+              <p class="paragraph2">Total</p>
+              <p class="paragraph3">/ person</p>
+            </div>
+            <input class="input_text2" id="tip_total" type="number" placeholder="$0.00" />
+          </div>
+        </div>
+        <button class="reset"  id="reset">RESET</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
